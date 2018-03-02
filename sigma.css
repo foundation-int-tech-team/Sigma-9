@@ -410,7 +410,7 @@ div#container-wrap {
  
 #breadcrumbs {
     margin: -1em 0 1em;
-    font-weight: 85%;
+    font-weight: 800;
 }
  
 /* YUI-TABS */
@@ -850,11 +850,6 @@ box-shadow: -1px -1px 2px #333;
     Edited for the SCP Foundation by Nanimono_Demonai
 */
  
-.emph {
-    text-emphasis-style: dot ;
-    -webkit-text-emphasis-style: dot ;
-}
- 
 /* For FireFox */
 @-moz-document url-prefix() {
 .emph {
@@ -893,7 +888,7 @@ box-shadow: -1px -1px 2px #333;
     width: 9px;    /* for vertical scrollbars */
     height: 9px; /* for horizontal scrollbars */
     border: solid 1px rgba(0, 0, 0, 0.1);
-    border-round: 0.5px;
+    border-radius: 0.5px;
 }
  
 ::-webkit-scrollbar-track
@@ -1284,7 +1279,7 @@ z-index: 1;
     bottom: 0.5em;
     left: 0.5em;
     z-index: 15;
-    font-family: 'Nanum Gothic', san-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 30px;
     font-weight: 700;
     width: 30px;
