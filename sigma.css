@@ -891,38 +891,7 @@ box-shadow: -1px -1px 2px #333;
     background-size: 1em 1.3em, auto;
 }
 }
- 
-/* viewport */
- 
-@viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
-/* IE viewport */
-@-ms-viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
-/* opera viewport */
-@-o-viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
-/* chrome viewport - maybe it isn't work... */
-@-webkit-viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
-/* firefox viewport - maybe it isn't work too... */
-@-moz-viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
+
 /* webkit scrollbar */
 ::-webkit-scrollbar
 {
