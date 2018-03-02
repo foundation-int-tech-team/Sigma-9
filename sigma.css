@@ -46,9 +46,6 @@ ul {
     /* list-style-image: url(http://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/bullet.gif); */
     list-style: square;
 }
-#top-bar ul {
-    /* list-style-image: none; /* IE ONLY! IF list-style-image IS SET */
-}
  
 li, p {
     line-height: 141%;
@@ -371,8 +368,6 @@ div#container-wrap {
 #side-bar div.menu-item .sub-text {
     font-size: 80%;
     color: #666;
-}
-#side-bar div.menu-item.sub-item {
 }
  
 #side-bar .collapsible-block-folded {
